@@ -16,7 +16,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DRVVMSRPQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-1DRVVMSRPQ');
   </script>
@@ -38,7 +38,7 @@
 <body id="page-top" data-spy="scroll" data-target=".side-menu">
 
 
- 
+
   <div class="container-fluid my-top">
     <!-- Start: Header -->
     <div class="row hero-header" id="home">
@@ -46,43 +46,31 @@
         <h1>Multidisciplinary Perspectives on Human-AI Team Trust </h1>
         <h2> Issue at Interaction Studies</h2>
         <!-- <h4>Design Offices Macherei: Weihenstephaner Str. 12, 81673 Munich, Germany</h4> -->
+      </div>
     </div>
-  </div>
     <!-- End: Header -->
   </div>
   <div class="container" id="about">
     <!-- Start: Desc -->
-    
-
-    <div data-include="topics"></div>
 
 
-    
+    <div data-include="topics" data-teal="true"></div>
+
+
+
 
 
     <div data-include="dates"></div>
-    <div data-include="call4contrib"></div>
+    <div data-include="call4contrib" data-teal="true"></div>
 
 
     <div data-include="organizers"></div>
-
-        <!-- not important -->
-
-    <!-- <div data-include="programmecommittee"></div>  -->
-    <!-- <div data-include="call4contrib"></div> -->
+    <div data-include="contacts" data-teal="true"></div>
 
 
-    <div class="container teal" id="contact">
-      <div class="container">
-        <div class="row me-row content-ct">
-          <h2 class="row-title">Contact</h2>
-          <div class="col-md feature">
-            <p>For any question related to the workshop please <a href="mailto:brandizzi@diag.uniroma1.it?cc=c.jorge@tudelft.nl,cipollone@diag.uniroma1.it,frattolillo@diag.uniroma1.it&Subject=[MultiTTrust] ..." target="_blank">Contact Us</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
+
 
   </div>
 
@@ -93,18 +81,15 @@
 
 
   <!-- Start: Footer -->
-  <div class="container-fluid footer">
-
-    <div class="row footer-credit">
-      <div class="col-md-4 col-sm-6">
-        <p>&copy; 2023 All rights reserved.</p>
-      </div>
-      <div> Designed by Akash Bhadange (designerdada) | Handshake icon made by <a
-          href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs"> DinosoftLabs </a> from <a
-          href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a>
+  <footer>
+    <div class="container-fluid footer">
+      <div class="row footer-credit">
+        <div class="col-md-4 col-sm-6">
+          <p>&copy; <script>document.write(new Date().getFullYear())</script> All rights reserved.</p>
+        </div>
       </div>
     </div>
-  </div>
+  </footer>
   <!-- End: Footer -->
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

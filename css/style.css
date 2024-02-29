@@ -24,8 +24,14 @@ a:hover, a:focus, a:active, a:visited {
 /* Buttons override */
 .btn {
 	text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
 }
+
 .btn-lg {
 	padding: 15px 40px;
     font-size: 16px;
@@ -54,7 +60,7 @@ a:hover, a:focus, a:active, a:visited {
 	Navigation 
 ------------------ */
 .side-menu {
-	position: fixed;
+    position:
 	right: 1%;
 	top: 30%;
     transform: translateY(-73px);
@@ -281,6 +287,10 @@ ul.footer-menu li a:hover {
 
 .content-ct{
     text-align: center;
+}
+
+.content-ct h3{
+    color: rgb(136, 49, 5);
 }
 .contact {
     background-color: #3a3a3a;

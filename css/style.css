@@ -31,6 +31,15 @@ a:hover, a:focus, a:active, a:visited {
     font-size: 15px;
     line-height: 30px;
 }
+.btn-bg {
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 .btn-lg {
 	padding: 15px 40px;

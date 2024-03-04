@@ -301,6 +301,18 @@ ul.footer-menu li a:hover {
 .content-ct h3{
     color: rgb(136, 49, 5);
 }
+
+.content-ct ul li {
+    
+    margin-bottom: 10px; /* Adds more space between list items for better readability */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.content-ct ul li:hover {
+    color: #F67F32; /* A slightly lighter or different color on hover for a smooth visual feedback */
+    transform: translateX(10px); /* Slightly moves the list item to the right when hovered */
+}
+
 .contact {
     background-color: #3a3a3a;
     color: #fff;
